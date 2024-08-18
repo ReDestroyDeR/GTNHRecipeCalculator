@@ -1,4 +1,13 @@
 
 plugins {
     id 'com.gtnewhorizons.gtnhconvention'
+    id 'scala'
+}
+
+repositories {
+    mavenCentral()
+}
+
+scala {
+    zincVersion = "1.9.3"
 }
